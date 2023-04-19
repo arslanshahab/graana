@@ -1,10 +1,12 @@
 @import "./../../global.scss";
 
 button {
-    border: 1px solid $black;
-    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px #dadada;
     padding: 12px;
     background-color: transparent;
+    border-radius: 10px !important;
     min-width: 100px;
     cursor: pointer;
     &.primary {
