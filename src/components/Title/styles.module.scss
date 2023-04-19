@@ -1,0 +1,33 @@
+@import "./../../global.scss";
+
+.wrapper {
+    background-color: $secondary;
+}
+.list-wrapper {
+}
+
+.list-wrapper .list-item {
+}
+
+.list-wrapper .list-item .item h1 {
+}
+
+.list-wrapper .list-item .item:hover {
+}
+
+.list-wrapper .list-item .item p {
+}
+
+.list-wrapper .list-item .box {
+}
+
+.list-wrapper {
+    //list wrapper
+    .list-item {
+        // list item
+        .item {
+            &:hover {
+            }
+        }
+    }
+}

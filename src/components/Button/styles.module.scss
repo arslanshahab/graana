@@ -1,0 +1,26 @@
+@import "./../../global.scss";
+
+.wrapper {
+    background-color: $primary;
+    width: calc(100% - 180px);
+    padding: 40px;
+    ul {
+        list-style-type: armenian;
+        li {
+            background-color: red;
+            cursor: pointer;
+            &:hover {
+                background-color: orange;
+            }
+        }
+    }
+}
+
+// .wrapper ul li {
+//     background-color: red;
+//     cursor: pointer;
+// }
+
+// .wrapper ul li:hover {
+//     background-color: blue;
+// }
