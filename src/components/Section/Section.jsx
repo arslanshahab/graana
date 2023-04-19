@@ -17,13 +17,13 @@ return(
       {<Title text={"Invest"}/>}
       {<Description text={"Invest in fully legal Imarat projects. Our “Ownerships & Approvals, Demand & Delivery” approach ensures fantastic returns with full risk mitigation"}/> }
       
-      {<Button title={"Invest"} size={"md"} type={"primary"} />}
+      {<Button title={"Invest"} size={"md"} type={"secondary"} />}
     </div>
     <div className={styles.wanted_styles}>
       <img src={wanted} alt="Section Image" />
       {<Title text={"Wanted"}/>}
       {<Description text={"In just 3 clicks activate a team of to find the properties you need In just 3 clicks activate a team of to find the properties you need. Just do Let us know"}/> }
-      <Button title={"Wanted"} size={"md"} type={"primary"} />
+      <Button title={"Wanted"} size={"md"} type={"secondary"} />
     </div>
     </div>
 );
