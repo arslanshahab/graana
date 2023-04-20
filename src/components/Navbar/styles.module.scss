@@ -1,0 +1,36 @@
+@import "./../../global.scss";
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px rgba($color: $black, $alpha: 0.1);
+    .logo {
+        display: flex;
+    }
+    .left-menu {
+        display: flex;
+        width: 50%;
+        .menu {
+            list-style-type: none;
+            li {
+                display: inline-block;
+                margin-right: 12px;
+            }
+        }
+    }
+
+    .right-menu {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+    }
+}

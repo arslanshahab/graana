@@ -1,0 +1,56 @@
+@import "./../../global.scss";
+
+header {
+    background-image: url("./../../assets/images/HeaderImage.webp");
+    height: 60vh;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    h1 {
+        text-align: center;
+        color: $white;
+        font-size: 36px;
+    }
+    .cta_button {
+        display: flex;
+        gap: 12px;
+    }
+
+    .header_search {
+        width: 40%;
+        height: 70px;
+        background-color: $white;
+        box-sizing: border-box;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .input_wrapper {
+            width: 90%;
+            height: 100%;
+            background-color: $white;
+            input {
+                width: 100%;
+                height: 100%;
+                border: none;
+                font-size: 20px;
+                padding: 0 16px;
+                &::placeholder {
+                    opacity: 0.5;
+                }
+            }
+        }
+        .search_icon {
+            background-color: $primary;
+            height: 100%;
+            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
