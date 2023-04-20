@@ -1,33 +1,12 @@
-@import "./../../global.scss";
+title{
+    color: black;
+    font-size: 12px;
 
-.wrapper {
-    background-color: $secondary;
+&.titleColor{
+    color: aqua;
 }
-.list-wrapper {
-}
+&.titleFont{
+    font-weight: bold;
 
-.list-wrapper .list-item {
 }
-
-.list-wrapper .list-item .item h1 {
-}
-
-.list-wrapper .list-item .item:hover {
-}
-
-.list-wrapper .list-item .item p {
-}
-
-.list-wrapper .list-item .box {
-}
-
-.list-wrapper {
-    //list wrapper
-    .list-item {
-        // list item
-        .item {
-            &:hover {
-            }
-        }
-    }
 }
