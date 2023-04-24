@@ -1,14 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
-import { Button } from "./components/Button";
-import { Title } from "./components/Title";
+import { Navbar } from "./components/Navbar/Navbar";
+import { Hero } from "./components/Hero/Hero";
+import CardList from "./components/Card/CardList";
+import MainCardList from "./components/mainCard/MainCardList";
+
 
 function App() {
   return (
     <React.Fragment>
-      <h1>FOOTER</h1>
-      <Button />
-      <Title />
+      <Navbar />
+      <Hero />
+      <CardList />
+      <MainCardList/>
     </React.Fragment>
   );
 }

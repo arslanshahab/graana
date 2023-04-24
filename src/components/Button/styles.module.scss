@@ -1,26 +1,30 @@
 @import "./../../global.scss";
 
-.wrapper {
-    background-color: $primary;
-    width: calc(100% - 180px);
-    padding: 40px;
-    ul {
-        list-style-type: armenian;
-        li {
-            background-color: red;
-            cursor: pointer;
-            &:hover {
-                background-color: orange;
-            }
-        }
+button {
+    border: 1px solid $black;
+    border-radius: 6px;
+    padding: 12px;
+    background-color: transparent;
+    min-width: 100px;
+    cursor: pointer;
+    &.primary {
+        background-color: $white;
     }
+    &.secondary {
+        background-color: $limedSpruce;
+        color: $white;
+    }
+
+    &.sm{
+        width: 100px;
+    }
+    &.lg{
+        width: 150px;
+    }
+    &.md{
+        width: 150px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
 }
-
-// .wrapper ul li {
-//     background-color: red;
-//     cursor: pointer;
-// }
-
-// .wrapper ul li:hover {
-//     background-color: blue;
-// }
