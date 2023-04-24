@@ -1,0 +1,27 @@
+.card_main{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px;
+    width: 290px;
+    height: 364px;
+    border-radius: 12px;
+    h2{
+        margin: 0;
+    font-weight: 600;
+    font-size: 1.346rem;
+    line-height: 1.7;
+    }
+    p{
+        margin: 0;
+    line-height: 1.7;
+
+    }
+    .main_btn{
+        margin-top: 40px;
+    }
+    
+}
