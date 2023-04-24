@@ -2,14 +2,16 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Hero } from "./components/Hero/Hero";
-import { Section } from "./components/Section/Section";
+import { BuyWant } from "./sections/BuyWant/BuyWant";
+import { Services } from "./sections/Services/Services";
 
 function App() {
   return (
     <React.Fragment>
       <Navbar />
       <Hero />
-      <Section/>
+      <BuyWant />
+      <Services />
     </React.Fragment>
   );
 }

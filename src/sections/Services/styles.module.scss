@@ -1,0 +1,15 @@
+@import "./../../global.scss";
+
+.services_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(242, 242, 242, 0.75);
+    width: 60%;
+    margin: auto;
+    border-radius: 16px;
+    backdrop-filter: blur(15px);
+    position: relative;
+}

@@ -7,6 +7,7 @@ button {
     background-color: transparent;
     min-width: 100px;
     cursor: pointer;
+    text-transform: uppercase;
     &.primary {
         background-color: $white;
     }
@@ -15,11 +16,13 @@ button {
         color: $white;
     }
 
-    &.sm{
+    &.sm {
         width: 100px;
     }
-    &.lg{
+    &.lg {
         width: 150px;
     }
-
+    &.outline {
+        border: 1px solid $black;
+    }
 }
