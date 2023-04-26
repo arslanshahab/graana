@@ -1,17 +1,12 @@
 @import "./../../global.scss";
 
-.Icon_with_Text{   
+.icon_with_text {
     display: flex;
     align-items: center;
     justify-content: center;
-   
-   
-  
-    p{
+    p {
         font-size: 12px;
         margin-left: 10px;
         margin-top: 15px;
-       
     }
-
 }

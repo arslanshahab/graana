@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Hero } from "./components/Hero/Hero";
 import { Services } from "./sections/Services/Services";
-import { BuyWant, Section } from "./components/BuyWant/BuyWant";
-import { Citycard } from "./components/Cards/CityCard/CityCard";
-import { CityCategoriesButtons } from "./components/CityCategoriesButtons/CityCategoriesButtons";
+import { BuyWant } from "./components/BuyWant/BuyWant";
+import { PropertiesList } from "./sections/PropertiesList/PropertiesList";
+import { propertiesList } from "./data";
 
 function App() {
   return (
@@ -14,8 +14,18 @@ function App() {
       <Hero />
       <BuyWant />
       <Services />
-      <CityCategoriesButtons />
-      <Citycard />
+      <PropertiesList
+        title="Top areas by city"
+        propertiesList={propertiesList}
+      />
+      <PropertiesList
+        title="Recent Properties for Sale"
+        propertiesList={propertiesList}
+      />
+      <PropertiesList
+        title="Recent Properties for Rent"
+        propertiesList={propertiesList}
+      />
     </React.Fragment>
   );
 }
