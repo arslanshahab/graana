@@ -19,7 +19,7 @@ export const Navbar = () => {
       </div>
       <div className={styles["right-menu"]}>
         <a href="/wanted">Wanted</a>
-        <Button title={"Sign In"} size={"md"} type={"primary"} />
+        <Button title={"Sign In"} size={"lg"} type={"primary"} />
       </div>
     </nav>
   );

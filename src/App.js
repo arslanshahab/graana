@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Hero } from "./components/Hero/Hero";
 import CardList from "./components/Card/CardList";
 import MainCardList from "./components/mainCard/MainCardList";
+import LoctionSearch from "./section/locationSearch/LoctionSearch";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Navbar />
       <Hero />
       <CardList />
-      <MainCardList/>
+      <MainCardList />
+      <LoctionSearch/>
     </React.Fragment>
   );
 }
