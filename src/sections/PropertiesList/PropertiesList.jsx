@@ -6,7 +6,7 @@ import { PropertyCard } from "../../components/Cards/PropertyCard/PropertyCard";
 import { useState } from "react";
 import { useEffect } from "react";
 
-export const PropertiesList = ({ title, propertiesList }) => {
+export const PropertiesList = ({ title, propertiesList }) => { // props
   const [properties, setProperties] = useState([]);
 
   useEffect(() => {

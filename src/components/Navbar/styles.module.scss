@@ -11,11 +11,12 @@ nav {
     .logo {
         display: flex;
     }
-    .left-menu {
+    .left_menu {
         display: flex;
         width: 50%;
         .menu {
             list-style-type: none;
+            margin: 0;
             li {
                 display: inline-block;
                 margin-right: 12px;
@@ -23,7 +24,7 @@ nav {
         }
     }
 
-    .right-menu {
+    .right_menu {
         display: flex;
         gap: 12px;
         align-items: center;

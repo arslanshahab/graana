@@ -24,7 +24,7 @@ export const propertiesList = [
     area_image:
       "https://www.graana.com/_next/image/?url=http%3A%2F%2Fres.cloudinary.com%2Fgraanacom%2Fimage%2Fupload%2Fv1538580064%2Fax22at6n4jzc01f27r3m.jpg&w=640&q=75",
     area_name: "F-17",
-    properties_for_rent: 390,
+    properties_for_rent: 290,
     properties_for_sales: 590,
     cityId: 1,
   },
