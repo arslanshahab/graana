@@ -5,6 +5,7 @@ import { Hero } from "./components/Hero/Hero";
 import CardList from "./components/Card/CardList";
 import MainCardList from "./components/mainCard/MainCardList";
 import LoctionSearch from "./section/locationSearch/LoctionSearch";
+import BlogList from "./components/Blogs/BlogList";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <CardList />
       <MainCardList />
       <LoctionSearch/>
+      <BlogList/>
     </React.Fragment>
   );
 }
