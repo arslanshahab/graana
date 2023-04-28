@@ -1,6 +1,7 @@
+@import "../../global.scss";
 .blog_item {
-    background-color: #fff;
-    color: #37474F;
+    background-color: $white;
+    color:$limedSpruce;
     border-radius: 12px;
     box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
     max-width: 388px;
@@ -28,7 +29,7 @@
                 font-weight: 600;
                 font-size: 0.862rem;
                 line-height: 1.7;
-                color: #E85451;
+                color: $primary;
             }
 
             h2 {

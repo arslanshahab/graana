@@ -1,10 +1,11 @@
+@import "../../global.scss";
 .card_main{
     display: flex;
     flex-direction: column;
     gap: 4px;
     justify-content: center;
     text-align: center;
-    background-color: #fff;
+    background-color: $white;
     margin: 20px;
     width: 290px;
     height: 364px;
