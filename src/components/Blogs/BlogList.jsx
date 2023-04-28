@@ -11,7 +11,7 @@ const BlogList = () => {
       <div className={styles.blog_list}>
         {
           blogData.map((data) => {
-            return <BlogItem
+            return <BlogItem key={data.id}
               img={data.img}
               bHead={data.bHead}
               bTitle={data.bTitle}
