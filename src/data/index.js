@@ -30,3 +30,24 @@ export const blogData = [
         bDate:"April 19,2023 1min read",
     },
 ];
+
+export const CampaignData = [
+    {
+        id:1,
+        image:"https://www.graana.com/home-page-images/roshan.svg",
+        text:"Roshan Apna Ghar is an initiative led by the State Bank of Pakistan (SBP) that aims to ease the Pakistani diaspora around the world. The scheme is available to all the customers of Roshan Digital Account (RDA)",
+        mText:"READ MORE"
+    },
+    {
+        id:2,
+        image:"https://www.graana.com/home-page-images/graanaCare.svg",
+        text:"Flood Relief Fund is an initiative led by Graana.com in collaboration with Pak Army. Pakistan has declared a state of emergency as floods have wreaked havoc across the country. The devastating floods",
+        mText:"READ MORE"
+    },
+    {
+        id:3,
+        image:"https://www.graana.com/home-page-images/esg.svg",
+        text:"ESG is vital for curating a sustainable ecosystem, initiative led by Graana.com.As the 8th most affected region by climate change, it is high time Pakistan’s private sector shifts towards eco-friendly",
+        mText:"READ MORE"
+    },
+]

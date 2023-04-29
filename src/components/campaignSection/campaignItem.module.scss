@@ -1,0 +1,40 @@
+@import "../../global.scss";
+
+.card {
+    width: 350px;
+    padding: 34px 25px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+
+    .card_head {
+        display: flex;
+        align-items: center;
+
+        .card_img {
+            position: relative;
+            overflow: hidden;
+            height: 80px;
+            width: 158px;
+        }
+    }
+
+    .card_body {
+        margin: 0;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .card_footer {
+        margin: 0;
+        font-weight: 600;
+        font-size: 0.862rem;
+        line-height: 1.7;
+        color: $primary;
+        text-transform: uppercase;
+    }
+}
