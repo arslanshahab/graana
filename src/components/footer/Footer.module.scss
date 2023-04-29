@@ -1,0 +1,59 @@
+@import "../../global.scss";
+
+.container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: left;
+    max-width: 1440px;
+    margin: 0px auto;
+    color: $limedSpruce;
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        h5 {
+            margin: 0;
+            font-weight: 700;
+            font-size: 1.200rem;
+            line-height: 1.7;
+        }
+        .icon_img{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        p{
+            margin: 0;
+            font-weight: 400;
+            font-size: 0.862rem;
+            line-height: 1.7;
+        }
+        .img{
+            display: flex;
+            gap: 10px;
+        }
+
+    }
+
+}
+.footer{
+    color: $limedSpruce;
+    background-color:$Porcelain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 5px;
+    p{
+        margin: 0;
+        font-weight: 400;
+        font-size: 0.743rem;
+        line-height: 1.7;
+    }
+}

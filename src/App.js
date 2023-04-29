@@ -8,6 +8,7 @@ import LoctionSearch from "./section/locationSearch/LoctionSearch";
 import BlogList from "./components/Blogs/BlogList";
 import AppSection from "./components/appSection/appSection";
 import CampaignList from "./components/campaignSection/campaignList";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <BlogList/>
       <AppSection/>
       <CampaignList/>
+      <Footer/>
     </React.Fragment>
   );
 }
