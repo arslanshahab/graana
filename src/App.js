@@ -6,6 +6,7 @@ import CardList from "./components/Card/CardList";
 import MainCardList from "./components/mainCard/MainCardList";
 import LoctionSearch from "./section/locationSearch/LoctionSearch";
 import BlogList from "./components/Blogs/BlogList";
+import AppSection from "./components/appSection/appSection";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <MainCardList />
       <LoctionSearch/>
       <BlogList/>
+      <AppSection/>
     </React.Fragment>
   );
 }
