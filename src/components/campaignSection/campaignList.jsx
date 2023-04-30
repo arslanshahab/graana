@@ -11,7 +11,9 @@ const CampaignList = () => {
             <p>Navigate through the landscape of some of our most well-received campaigns!</p>
             <div className={styles.card_list}>
                 {CampaignData.map((data)=>{
-                    return <CampaignItem data={data}/>
+                    return <CampaignItem
+                     key={data.id}
+                     data={data}/>
                 })}
             </div>
         </div>

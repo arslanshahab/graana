@@ -1,0 +1,92 @@
+@import "../../../global.scss";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 287px;
+    border: 0.9px solid #F2F2F2;
+    border-radius: 3px;
+
+    .cardImg {
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        width: 287px;
+        height: 161px;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .card_text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 20px;
+
+        .textH{
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.7;
+            color: #37474F;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: normal;
+        }
+
+        .textImg {
+            display: flex;
+            gap: 20px;
+
+            .rent {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .rent_text {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    .iImg {
+                        margin: 0;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 0.862rem;
+                        font-weight: 600;
+                        line-height: 1.7;
+                        color: #E85451;
+                    }
+                    .h4 {
+                        margin: 0;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 0.862rem;
+                        font-weight: 200;
+                        line-height: 1.7;
+                        color: #37474F;
+                    }
+                }
+            }
+        }
+        .underline{
+            margin: 0;
+            flex-shrink: 0;
+            border-width: 0;
+            border-style: solid;
+            border-color: rgba(0, 0, 0, 0.12);
+            border-bottom-width: thin;
+            height: 2px;
+        }
+        .foot{
+            margin: 0;
+            font-size: 18px;
+            line-height: 30px;
+            font-family: "Poppins",sans-serif;
+            font-size: 0.862rem;
+            font-weight: 600;
+            line-height: 1.7;
+            text-transform: uppercase;
+            color: #37474F;
+            text-align: center;
+        }
+    }
+}

@@ -1,3 +1,86 @@
+export const citiesList = [
+    {
+      id: 1,
+      name: "Islamabad",
+      tRent:3810,
+      tSales:11017,
+    },
+    {
+      id: 2,
+      name:"Rawalpindi",
+      tRent:1002,
+      tSales:4785,
+    },
+    {
+      id: 3,
+      name: "Lahore",
+      tRent:9896,
+      tSales:22494,
+    },
+    {
+      id: 4,
+      name: "Karachi",
+      tRent:6262,
+      tSales:55134,
+    },
+    {
+      id: 5,
+      name: "Peshawar",
+      tRent:256,
+      tSales:3638,
+    },
+  ];
+  
+  export const propertiesList = [
+    {
+      id: 1,
+      name: "Islamabad",
+      area_image:"https://www.graana.com/_next/image/?url=http%3A%2F%2Fres.cloudinary.com%2Fgraanacom%2Fimage%2Fupload%2Fv1538580064%2Fax22at6n4jzc01f27r3m.jpg&w=640&q=75",
+      area_name: "F-17",
+      properties_for_rent: 139,
+      properties_for_sales: 580,
+      rent_img:"https://www.graana.com/common/rent.svg",
+      sale_img:"https://www.graana.com/home-page-images/sale.svg",
+      cityId: 1,
+    },
+    {
+      id: 2,
+      name: "Islamabad",
+      area_image:"https://www.graana.com/_next/image/?url=http%3A%2F%2Fres.cloudinary.com%2Fgraanacom%2Fimage%2Fupload%2Fv1538576439%2Fh3vjpkkdzqz1fiyv9rjm.jpg&w=640&q=75",
+      area_name: "DHA Phase 2",
+      properties_for_rent: 104,
+      properties_for_sales: 530,
+      rent_img:"https://www.graana.com/common/rent.svg",
+      sale_img:"https://www.graana.com/home-page-images/sale.svg",
+      cityId: 1,
+    },
+    {
+      id: 3,
+      name: "Lahore New",
+      area_image:"https://www.graana.com/_next/image/?url=http%3A%2F%2Fres.cloudinary.com%2Fgraanacom%2Fimage%2Fupload%2Fv1538827978%2Fg8jzfkonwiedsqxwbtu0.jpg&w=640&q=75",
+      area_name: "Bahria Enclave",
+      properties_for_rent:63,
+      properties_for_sales: 509,
+      rent_img:"https://www.graana.com/common/rent.svg",
+      sale_img:"https://www.graana.com/home-page-images/sale.svg",
+      cityId: 2,
+    },
+  
+    {
+      id: 4,
+      name: "Islamabad",
+      area_image:"https://www.graana.com/_next/image/?url=http%3A%2F%2Fres.cloudinary.com%2Fgraanacom%2Fimage%2Fupload%2Fv1538573547%2Fmmhigw2z7yvfu5fpqfqe.jpg&w=640&q=75",
+      area_name: "TopCity-1",
+      properties_for_rent: 7,
+      properties_for_sales: 437,
+      rent_img:"https://www.graana.com/common/rent.svg",
+      sale_img:"https://www.graana.com/home-page-images/sale.svg",
+      cityId: 4,
+    },
+  ];
+  
+
+
 export const blogData = [
     {
         id:1,

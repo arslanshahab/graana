@@ -9,6 +9,7 @@ import BlogList from "./components/Blogs/BlogList";
 import AppSection from "./components/appSection/appSection";
 import CampaignList from "./components/campaignSection/campaignList";
 import Footer from "./components/footer/Footer";
+import PropertyList from "./section/Properties/propertyList/PropertyList";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <CardList />
       <MainCardList />
       <LoctionSearch/>
+      <PropertyList/>
       <BlogList/>
       <AppSection/>
       <CampaignList/>
