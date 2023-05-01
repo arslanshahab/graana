@@ -1,0 +1,118 @@
+@import "../../../global.scss";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 287px;
+    border: 0.9px solid $Porcelain;
+    border-radius: 3px;
+    color:$limedSpruce;
+
+    .cardImg {
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        width: 287px;
+        height: 161px;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .card_text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 20px;
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .head_left {
+                display: flex;
+                align-items: baseline;
+
+                .pkr {
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 0.9rem;
+                    line-height: 1.7;
+                    display: flex;
+                    align-items: baseline;
+                }
+
+                .textH {
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 1.400rem;
+                    line-height: 1.7;
+                    margin-left: 5px;
+                }
+
+            }
+
+            .head_right {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                .box {
+                    background: $primary;
+                    border-radius: 2px;
+                    width: 8.78px;
+                    height: 8.78px;
+                }
+
+                .area_text {
+                    margin: 0;
+                    font-weight: 400;
+                    font-size: 0.8rem;
+                    line-height: 1.7;
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        .textImg {
+            display: flex;
+            gap: 20px;
+
+            .rent {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .rent_text {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    .h4 {
+                        margin: 0;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 0.8rem;
+                        font-weight: 200;
+                        line-height: 1.7;
+                    }
+                }
+            }
+        }
+
+        .h4 {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            font-size: 0.9rem;
+            font-weight:400;
+            line-height: 1.7;
+        }
+
+        .h3 {
+
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            font-size: 0.7rem;
+            font-weight: 200;
+            line-height: 1.7;
+        }
+    }
+}

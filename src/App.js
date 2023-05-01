@@ -10,7 +10,8 @@ import AppSection from "./components/appSection/appSection";
 import CampaignList from "./components/campaignSection/campaignList";
 import Footer from "./components/footer/Footer";
 import PropertyList from "./section/Properties/propertyList/PropertyList";
-
+import PropertyRSList from "./section/PropertiesRS/propertyListRS/PropertyRSList";
+import {propertiesListSales,propertiesListRent} from "./data/index";
 
 function App() {
   return (
@@ -21,6 +22,14 @@ function App() {
       <MainCardList />
       <LoctionSearch/>
       <PropertyList/>
+      <PropertyRSList
+        title="Recent Properties for Rent"
+        propertiesRSList={propertiesListRent}
+      />
+      <PropertyRSList
+       title="Recent Properties for Sale"
+       propertiesRSList={propertiesListSales}
+      />
       <BlogList/>
       <AppSection/>
       <CampaignList/>
