@@ -8,3 +8,7 @@ body {
   box-sizing: border-box;
   background-color: white;
 }
+
+.title{
+  font-size: 87px;
+}

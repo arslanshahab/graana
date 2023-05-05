@@ -68,7 +68,7 @@ export const Navbar = () => {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <h1>Login Form</h1>
+        <h1 className={"title"}>Login Form</h1>
         <input type="text" placeholder="Enter Email" />
         <br />
         <br />
