@@ -1,39 +1,28 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { Navbar } from "./components/Navbar/Navbar";
-import { Hero } from "./components/Hero/Hero";
-import CardList from "./components/Card/CardList";
-import MainCardList from "./components/mainCard/MainCardList";
-import LoctionSearch from "./section/locationSearch/LoctionSearch";
-import BlogList from "./components/Blogs/BlogList";
-import AppSection from "./components/appSection/appSection";
-import CampaignList from "./components/campaignSection/campaignList";
+import Home from "./Pages/Home/Home";
+import Buy from "./Pages/Buy/Buy";
+import Sell from "./Pages/Sell/Sell";
+import Rent from "./Pages/Rent/Rent";
+import Invest from "./Pages/Invest/Invest";
+import {Navbar} from "./components/Navbar/Navbar";
 import Footer from "./components/footer/Footer";
-import PropertyList from "./section/Properties/propertyList/PropertyList";
-import PropertyRSList from "./section/PropertiesRS/propertyListRS/PropertyRSList";
-import {propertiesListSales,propertiesListRent} from "./data/index";
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
-      <Hero />
-      <CardList />
-      <MainCardList />
-      <LoctionSearch/>
-      <PropertyList/>
-      <PropertyRSList
-        title="Recent Properties for Rent"
-        propertiesRSList={propertiesListRent}
-      />
-      <PropertyRSList
-       title="Recent Properties for Sale"
-       propertiesRSList={propertiesListSales}
-      />
-      <BlogList/>
-      <AppSection/>
-      <CampaignList/>
-      <Footer/>
+      <BrowserRouter>
+      <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/buy" element={<Buy />}/>
+          <Route path="/sell" element={<Sell />}/>
+          <Route path="/rent" element={<Rent />}/>
+          <Route path="/invest" element={<Invest />}/>
+        </Routes>
+          <Footer/>
+      </BrowserRouter>
     </React.Fragment>
   );
 }

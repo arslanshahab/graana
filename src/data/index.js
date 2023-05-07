@@ -2,32 +2,22 @@ export const citiesList = [
     {
       id: 1,
       name: "Islamabad",
-      tRent:3810,
-      tSales:11017,
     },
     {
       id: 2,
       name:"Rawalpindi",
-      tRent:1002,
-      tSales:4785,
     },
     {
       id: 3,
       name: "Lahore",
-      tRent:9896,
-      tSales:22494,
     },
     {
       id: 4,
       name: "Karachi",
-      tRent:6262,
-      tSales:55134,
     },
     {
       id: 5,
       name: "Peshawar",
-      tRent:256,
-      tSales:3638,
     },
   ];
   
@@ -42,6 +32,7 @@ export const citiesList = [
       rent_img:"https://www.graana.com/common/rent.svg",
       sale_img:"https://www.graana.com/home-page-images/sale.svg",
       cityId: 1,
+      
     },
     {
       id: 2,

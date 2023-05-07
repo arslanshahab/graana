@@ -3,7 +3,8 @@
 button {
     border: 1px solid $black;
     border-radius: 6px;
-    padding: 12px;
+    padding: 8px;
+    // margin-bottom:15px ;
     background-color: transparent;
     min-width: 100px;
     cursor: pointer;
@@ -14,12 +15,19 @@ button {
         background-color: $limedSpruce;
         color: $white;
     }
-
+    &.facebook{
+        background-color: $facebook;
+        color: $white;
+        border: none;
+    }
     &.sm{
         width: 100px;
     }
-    &.lg{
+    &.md{
         width: 150px;
+    }
+    &.lg{
+        width: 440px;
     }
 
 }

@@ -15,7 +15,7 @@ const CardItem = ({img,heading,btTitle,text, altT}) => {
                 <p>{text}</p>
             </div>
             <div className={style.btn}>
-                <Button title={btTitle} type="secondary" size="lg"/>
+                <Button title={btTitle} type="secondary" size="md"/>
             </div>
         </div>
     )
