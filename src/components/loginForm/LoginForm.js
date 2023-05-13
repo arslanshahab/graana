@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-// import Joi from "joi";
 import { Button } from '../Button/Button';
+import { Link } from 'react-router-dom';
 const LoginForm = () => {
     const [login, setLogin] = useState({ email: "", password: "", });
     const [formError, setFormError] = useState({})
@@ -30,7 +30,7 @@ const LoginForm = () => {
         alert("You Are Login");
       }
     }, [formError])
-    
+
 
 
     return (
@@ -67,9 +67,11 @@ const LoginForm = () => {
                                             onChange={handleChange} />
                                     {formError.password && <p className='text-danger'>{formError.password}</p> }
                                     </div>
+                                   
                                     <Button title="Login" size="lg" variant="secondary" />
+                                    </form>
                                     <div className='text-center mt-3 mb-3'>
-                                        <small id="emailHelp" className="form-text text-danger">Forgot Password?</small>
+                                        <small id="emailHelp" className="form-text text-danger"><Link to="/forget">Forgot Password?</Link></small>
                                     </div>
                                     <div className='row'>
                                         <div className="col-5"> <hr /> </div>
@@ -85,8 +87,8 @@ const LoginForm = () => {
                                     <div className='mb-3'>
                                         <Button title="Continue with Email" size="lg" />
                                     </div>
-                                    <p className='text-center mt-5'>Don’t have an account? Register Now</p>
-                                </form>
+                                    <p className='text-center mt-5'> <Link to="/register"> Don’t have an account? Register Now</Link></p>
+                                
                             </div>
                         </div>
                     </div>

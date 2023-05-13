@@ -1,0 +1,30 @@
+.btn {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    min-width: 64px;
+    width: 92.58px;
+    height: 96.34px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.7;
+    padding: 12px;
+    color: rgb(55, 71, 79);
+
+    .img {
+        position: relative;
+        overflow: hidden;
+        width: 29.09px;
+        height: 29.97px;
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            inset: 0px;
+            object-fit: contain;
+        }
+    }
+}

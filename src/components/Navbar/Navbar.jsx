@@ -29,7 +29,7 @@ export const Navbar = () => {
         </ul>
       </div>
       <div className={styles.right_menu}>
-        <a href="/wanted">Wanted</a>
+        <Link to="/wanted">Wanted</Link>
           <LoginForm/>
       </div>
     </nav>

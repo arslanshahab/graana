@@ -1,0 +1,69 @@
+@import "../../global.scss";
+
+.container {
+    width: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    top: 50%;
+    left: 30%;
+    position: relative;
+    border-radius: 16px;
+    color: $limedSpruce ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
+
+    .forgetSec {
+        padding: 52px 51px 61px;
+        text-align: center;
+        overflow: hidden;
+
+        .header {
+            text-align: center;
+
+            h2 {
+                margin: 0px;
+                font-weight: 700;
+                font-size: 1.8rem;
+                line-height: 1.7;
+
+                .color {
+                    color: $primary;
+                }
+            }
+        }
+
+        .text {
+            margin: 0px;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #999
+        }
+
+        .input_wraper {
+            margin: 25px 0px;
+            font-family: Poppins, sans-serif;
+
+            .input_field {
+                width: 350px;
+                height: 40px;
+                padding: 10px;
+                border-radius: 8px;
+            }
+        }
+
+        .footer {
+            margin-top: 12px;
+
+            h6 {
+                margin: 0px;
+                font-weight: 400;
+                font-size: 0.862rem;
+                line-height: 1.7;
+                text-align: center;
+                cursor: pointer;
+                text-decoration-line: underline;
+                margin-bottom: 33px;
+            }
+        }
+    }
+}

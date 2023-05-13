@@ -4,7 +4,6 @@ button {
     border: 1px solid $black;
     border-radius: 6px;
     padding: 8px;
-    // margin-bottom:15px ;
     background-color: transparent;
     min-width: 100px;
     cursor: pointer;
@@ -25,9 +24,10 @@ button {
     }
     &.md{
         width: 150px;
+        font-size: 12px;
     }
     &.lg{
-        width: 440px;
+        width: 330px;
     }
 
 }
