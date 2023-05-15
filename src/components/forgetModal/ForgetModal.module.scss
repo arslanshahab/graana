@@ -54,8 +54,9 @@
         .footer {
             margin-top: 12px;
 
-            h6 {
+            .login_text{
                 margin: 0px;
+                color:  $limedSpruce;
                 font-weight: 400;
                 font-size: 0.862rem;
                 line-height: 1.7;

@@ -21,13 +21,16 @@
         margin-bottom: 40px;
     }
     h6{
-
+   
         margin: 0px;
         font-weight: 400;
         font-size: 0.862rem;
         line-height: 1.7;
         cursor: pointer;
         text-decoration-line: underline;
+    }
+    .text_login{
+        color:$limedSpruce;
     }
    }
 }

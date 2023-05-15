@@ -1,0 +1,26 @@
+@import "../../global.scss";
+.container{
+    width: 450px;
+    margin: 40px 450px;
+    border-radius: 16px;
+    color: $limedSpruce ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
+    .section{
+        padding: 52px 51px 61px;
+        .text_heading{
+            margin-left: 10px;
+           }
+           .text{
+               margin: 0px;
+               font-weight: 400;
+               font-size: 1rem;
+               line-height: 1.7;
+               color: #999;
+               margin-left: 10px;
+               margin-bottom: 40px;
+           }
+           .register_text{
+            color: $limedSpruce;
+           }
+    }
+}

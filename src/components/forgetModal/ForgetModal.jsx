@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from "./ForgetModal.module.scss";
 import {Button} from "../Button/Button"
 const ForgetForm = () => {
@@ -14,7 +15,7 @@ const ForgetForm = () => {
             <input type="email"  placeholder='Please Enter Your Email' className={styles.input_field} />
           </div>
           <div className={styles.footer}>
-            <h6>Back to Login</h6>
+          <Link to="/login"><h6 className={styles.login_text}>Back to Login</h6></Link>  
             <Button title="SEND" size="md" variant="secondary"/>
          </div>
       </div>

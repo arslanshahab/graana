@@ -1,0 +1,39 @@
+@import "../../global.scss";
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 33px auto;
+
+    .detail_section {
+        flex-grow: 0;
+        flex-basis: auto;
+        width:50%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .vertical_line {
+        min-width: 0;
+        box-sizing: border-box;
+        //  margin-left: -40px;
+
+        .line {
+            width: 1px;
+            height: 860px;
+            border: 1px solid #F2F2F2;
+        }
+    }
+
+    .wanted_section {
+        flex-grow: 0;
+        flex-basis: auto;
+        width:41.6%;
+        min-width: 0;
+        box-sizing: border-box;
+        margin: 0px 50px 0px 50px;
+    }
+}

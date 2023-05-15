@@ -1,14 +1,13 @@
 import React from 'react';
 import styles from "./Button.module.scss";
-import homeImg from "../../../../assets/images/sell-icon.svg"
-const Button = () => {
+const Button = ({title,img,altText}) => {
     return (
         <div>
             <button className={styles.btn}>
                 <div className={styles.img}>
-                    <img src={homeImg} alt="" />
+                    <img src={img} alt={altText}/>
                 </div>
-                <span>Buy</span>
+                <span>{title}</span>
             </button>
         </div>
     )

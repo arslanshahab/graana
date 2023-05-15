@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
+import { Button } from '../Button/Button';
+import styles from "./LoginForm.module.scss";  
 const LoginForm = () => {
     const [login, setLogin] = useState({ email: "", password: "", });
     const [formError, setFormError] = useState({})
@@ -34,15 +35,11 @@ const LoginForm = () => {
 
 
     return (
-        <div>
-            <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" title="Sign In" >Sign in </button>
-            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div className="modal-dialog ">
+        <div className={styles.container}>
+                <div className={styles.section}>
                     <div className="modal-content">
-                        <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModalLabel" >Sign in to your account</h1>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
+                            <h2 className={styles.text_heading} >Sign in to your account</h2>
+                            <h6 className={styles.text}>Welcome back!</h6>
                         <div className='container'>
                             <div className="modal-body">
                                 <form onSubmit={handlerSubmit}>
@@ -71,7 +68,7 @@ const LoginForm = () => {
                                     <Button title="Login" size="lg" variant="secondary" />
                                     </form>
                                     <div className='text-center mt-3 mb-3'>
-                                        <small id="emailHelp" className="form-text text-danger"><Link to="/forget">Forgot Password?</Link></small>
+                                        <small id="emailHelp" ><Link to="/forget" className='text-danger'>Forgot Password?</Link></small>
                                     </div>
                                     <div className='row'>
                                         <div className="col-5"> <hr /> </div>
@@ -87,14 +84,13 @@ const LoginForm = () => {
                                     <div className='mb-3'>
                                         <Button title="Continue with Email" size="lg" />
                                     </div>
-                                    <p className='text-center mt-5'> <Link to="/register"> Don’t have an account? Register Now</Link></p>
+                                    <p className='text-center mt-5'> <Link to="/register" className={styles.register_text}> Don’t have an account? Register Now</Link></p>
                                 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

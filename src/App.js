@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 import Wanted from "./Pages/Wanted/Wanted";
 import ForgetForm from "./components/forgetModal/ForgetModal";
 import Registration from "./components/registerComponent/Registration";
+import LoginForm from "./components/loginForm/LoginForm";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/rent" element={<Rent />}/>
           <Route path="/invest" element={<Invest />}/>
           <Route path="/wanted" element={<Wanted />}/>
+          <Route path="/login" element={<LoginForm />}/>
           <Route path="/forget" element={<ForgetForm />}/>
           <Route path="/register" element={<Registration/>} />
         </Routes>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {Button} from "../Button/Button"
 import styles from  "./Registration.module.scss";
 const Registration = () => {
@@ -59,7 +60,7 @@ const Registration = () => {
                                     <div className='mb-3'>
                                         <Button title="Continue with Google" size="lg" />
                                     </div>
-                                    <h6 className='text-center mt-5'> I already have an account</h6>
+                                    <h6 className='text-center mt-5'> <Link to="/login" className={styles.text_login}>I already have an account</Link> </h6>
                                 
                             </div>
                         </div>

@@ -1,0 +1,31 @@
+@import "../../../../global.scss";
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:$limedSpruce;
+
+    .section {
+        display: grid;
+        gap: 24px;
+
+        .section_text {
+            margin: 0;
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        .section_btn{
+            display: flex;
+            gap: 16px;
+        }
+        .form_text{
+            margin: 0;
+            font-weight: 600;
+            font-size: 1.16rem;
+            line-height: 1.7;
+        }
+    }
+}

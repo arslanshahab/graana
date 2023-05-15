@@ -2,11 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./../../assets/images/GraanaLogo.svg";
 import styles from "./styles.module.scss";
-import LoginForm from "../loginForm/LoginForm";
-
 export const Navbar = () => {
   return (
-    <nav>
+    <nav className="sticky-top">
       <div className={styles.left_menu}>
         <div className={styles.logo}>
           <Link to="/">
@@ -30,7 +28,7 @@ export const Navbar = () => {
       </div>
       <div className={styles.right_menu}>
         <Link to="/wanted">Wanted</Link>
-          <LoginForm/>
+          <Link to="/login">Sign In</Link>
       </div>
     </nav>
   );
